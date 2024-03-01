@@ -1,0 +1,31 @@
+
+/*-------- Estilo GERAL ---------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    height: 100vh;
+}
+
+/*interface do site centralizada e com largura definida dando respiro nas laterais da tela*/
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/*-------- Estilo CABEÇALHO ---------*/
+
+header {
+    padding: 40px 4%;
+}
+
+header > .interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
