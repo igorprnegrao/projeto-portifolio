@@ -13,6 +13,16 @@ body {
     height: 100vh;
 }
 
+h2.titulo {
+    color: #fff;
+    font-size: 38px;
+    text-align: center;
+}
+
+h2.titulo span {
+    color: #00ff08;
+}
+
 /*interface do site centralizada e com largura definida dando respiro nas laterais da tela*/
 .interface {
     max-width: 1280px;
@@ -129,3 +139,39 @@ e alternando nas duas direções */
         top: 30px;
     }
 }
+
+/*-------- Estilo das Especialidades ---------*/
+
+section.especialidades {
+    padding: 40px 4%;
+}
+
+section.especialidades .flex {
+    gap: 60px;
+    
+}
+
+.especialidades .especialidades-box {
+    color: #fff;
+    padding: 40px;
+    margin: 45px 0;
+    border-radius: 20px;
+    transition: all 0.2s;
+}
+
+.especialidades .especialidades-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 9px #ffffff6c;
+}
+
+.especialidades .especialidades-box i {
+    font-size: 70px;
+    color: #00ff08;
+    
+}
+
+.especialidades .especialidades-box h3 {
+    font-size: 28px;
+    margin: 15px 0;
+}
+
