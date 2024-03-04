@@ -274,4 +274,37 @@ section.portfolio .flex {
     opacity: 1;
 }
 
+/*-------- Estilo Formulario ---------*/
+
+section.formulario {
+    padding: 80px 4%;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input, form textarea {
+    width: 100%;
+    background-color: #242424 ;
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 18px;
+}
+
+form input::placeholder {
+    color: #00ff08;
+}
+
+form textarea::placeholder {
+    color: #00ff08;
+}
 
