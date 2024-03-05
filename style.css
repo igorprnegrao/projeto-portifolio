@@ -147,6 +147,10 @@ header nav.menu-desktop ul li {
     display: none;
 }
 
+.menu-mobile.abrir-menu{
+    width: 70%;
+}
+
 
 
 
